@@ -1,0 +1,59 @@
+body{
+	margin:0;
+	background: #e9eaed;
+	font-family: 'Lato';
+}
+.notify{
+	display: none;
+	text-align: center;
+	width: auto;
+    height: auto;
+    background: #247aa6;
+    color: #E9EAED;
+    padding: 10px;
+}
+.user{
+	width: 75px;
+	height: 75px;
+	background:url(../img/yop.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	display: inline-block;
+}
+.user h3{
+	margin-top: 76px;
+	margin-left: -24px;
+}
+.info{
+	text-align: justify;
+	display: inline-block;
+	width: 760px;
+	padding: 0px 45px;
+	position: relative;
+	vertical-align: 16px;
+}
+.close{
+	cursor: pointer;
+	position: absolute;
+    right: 22px;
+    top: 22px;
+    padding: 10px 15px;
+    background: #1D6B93;
+}
+.twitts{
+	cursor:pointer;
+    width: 150px;
+    padding: 10px;
+    background: #247AA6;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    position: relative;
+	top: 35px;
+}
+@media(max-width:900px){
+	.info{
+		width: auto;
+		padding: 20px 10px;
+	}
+}
